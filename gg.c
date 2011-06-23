@@ -1,15 +1,9 @@
-#include <stdio.h>
+#testing python
 
-int print_7_n(int n)
-{
-	printf("7*%d=%d\n",n,7*n);
-}
+def print_result():
+	print "good"
+	return False
 
-int main()
-{
-	int n;
-	scanf("%d",&n);
-	print_7_n(n);
-	return 0;
-}
+print_result()
+
 
