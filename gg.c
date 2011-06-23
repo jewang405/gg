@@ -21,13 +21,14 @@ def prog_2():
 	print num, type(num)
 	#check
 	if type(num)==int:
-		return "pass"
+		for i in range(1,10):
+			print str(num)+"*"+str(i)+"="+str(num*i)
 	else:
-		return "error"
+		print "error"
 
 
 
 #action
 print prog_1()
-print prog_2()
+prog_2()
 
