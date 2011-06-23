@@ -19,9 +19,15 @@ def prog_2():
 	num=input("enter number: ")
 	#testing
 	print num, type(num)
+	#check
+	if type(num)==int:
+		return "pass"
+	else:
+		return "error"
+
 
 
 #action
 print prog_1()
-prog_2()
+print prog_2()
 
