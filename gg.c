@@ -10,9 +10,9 @@ def prog_1():
 	print n,m,type(n),type(m)
 	#check
 	if type(n)==int  and type(m)==int:
-		print "pass"
+		return str(n)+"*"+str(m)+"="+str(n*m)
 	else:
-		print "error"
+		return "error"
 
 def prog_2():
 	#get input
@@ -22,6 +22,6 @@ def prog_2():
 
 
 #action
-prog_1()
+print prog_1()
 prog_2()
 
