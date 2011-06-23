@@ -14,6 +14,14 @@ def prog_1():
 	else:
 		print "error"
 
+def prog_2():
+	#get input
+	num=input("enter number: ")
+	#testing
+	print num, type(num)
+
+
 #action
 prog_1()
+prog_2()
 
