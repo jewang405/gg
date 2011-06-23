@@ -1,9 +1,16 @@
-#testing python
+#in python
 
-def print_result():
-	print "good"
-	return False
+# first program
 
-print_result()
+def prog_1():
+	#get input
+	n=input("first number: ")
+	m=input("second number: ")
+	
+	#testing
+	print n
+	print m
 
+#action
+prog_1()
 
